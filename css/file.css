@@ -1,424 +1,77 @@
-*
-{
-    padding: 0px;
-    margin: 0px;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-}
-html{
-    scroll-behavior: smooth;
-}
-.container
-{
-   margin-left: 220px;
-}
-.container2
-{
-    margin-right: 45vh;
-    
-}
-.head
-{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/landing.jpg);
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: center;
+header{
+    background:url(../images/img-bg-01.jpg) no-repeat center scroll ;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    height: 110vh;   
 }
-.head img{
-    margin-top: 10px;
-    width: 125px;
-    height: 40px;
-}
-.head nav{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-   
-}
-.head nav ul{
-    list-style: none;
-    margin-top: 10px;
-    
-}
-.head nav ul li{
-    display: inline;
-    padding-left:17px;
-    color: #fff;
-}
-
-.head nav ul li a
+.fs-1
 {
-    color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-    border-bottom:1px solid ;
-    padding-bottom: 40px;
+    font-size: 60px !important;
 }
-.head nav ul li .active
+.chancol:hover
 {
-    color: aqua;  
-}
-.head nav ul li a:hover
-{
-    color: aqua;
-}
-
-/*end of the nav*/
-hr{
-    margin-top: 20px;
-    width: 100% -45vh;
-}
-/* end of the horizantal line */
-.hello
-{
-    width: 50%;
-    background-color: rgba(0, 132, 255, 0.637);
-    height: 45vh;
-    margin-top: 100px;
-    color: #fff;
-  
-}
-.hello .container h1
-{
-    padding-bottom: 15px;
-}
-.hello .container p{
-    width: 85%;
-    line-height: 25px;
-}
-.hello .container h1:nth-child(1)
-{
-    font-size: xx-large;
-    padding-top: 70px;
-    
-}
-.arrow
-{
-    font-size: x-large;
-    color: #fff;
-}
-.arrowL
-{
-    position: relative;
-    bottom: 25%;
-    z-index: 1;
-    margin-left: 25px;
-
-}
-.arrowR
-{
-    position: relative;
-    bottom: 27%;
-    margin-right: 25px;
-    float: right;
-}
-/* end of hello world section and the arrows */
-.last div{
-    padding: 5px;
-    width: 5px;
-    height: 5px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: rgba(100, 148, 237, 0);
-}
-.last div:nth-child(2)
-{
-  background-color: aqua;
-}
-.last{
-   margin-left: 48%;
-   margin-top: 10%;
-   margin-bottom: 20px;
-}
-/* end of the first section*/
-.services
-{
-    width: 100%;
-   margin-bottom: 150px;
-}
-.head2{
-    text-align: center;
-    margin-top: 100px;
-    font-size: x-large;
-}
-.head2 .shape
-{
-   
-   margin: auto;
-    width: 50px;
-    
-}
-.services .head2 .shape hr{
-    transform: translateX(-30%);
-    width: 85px;
-    padding-right: 25px;
-    font-weight:bolder;
-}
-.circle
-{
-    position: relative;
-    bottom: 10px;
-    left: 5px;
-    transform: translateX(60%);
-    padding: 5px;
-    width: 5px;
-    height: 5px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    z-index: 1;
-    background-color: #fff;
-}
-.text
-{
-    margin: auto;
-    width: 550px;
-    font-size: large;
-    padding-top: 5px;
-}
-.all i
-{
-font-size: 50px;    
-}
-.all div{
-    display: inline-block;
-}
-.direction
-{
-    width: 450px;
-    transform: translate(10%,80%);
-    overflow: hidden;
-    padding-right: 55px;
-}
-.direction h3{
-   color: aqua;
-}
-.direction p{
-    padding-top: 35px;
-    line-height: 35px;
-}
-.photos1
-{
-    display: flex;
-   padding-bottom: 50px;
-}
-.design
-{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/design-features.jpg) no-repeat center scroll;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-   display: flex;
-   justify-content: space-between; 
-    overflow: hidden;
-}
-.design div img{
-    margin-top: 25px;
-    padding-top: 30vh;
-    vertical-align: top;
-}
-.text2
-{
-    background-color: rgba(0, 132, 255, 0.637);
-    width: 60%;
-    height: 45vh;
-    color: #fff;
-    text-align: left;
-    margin-top: 10%;
-}
-.text2 div,.text2 h1
-{
-    padding-top: 30px;
-   padding-left: 50px;
-
-}
-.head2 div ul li{
-    margin-top:70px;
-    padding: 10px;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bolder;
-}
-.head2 div ul li:nth-child(1)
-{
-    background-color: aqua;
-}
-.col-3{
-    width: 25%;
-    float: left;  
-    overflow: hidden;
-}
-[class*="col-"]::after
-{
-    content: "";
- clear: both;
- display: table;   
-}
-.rows
-{
-    margin-top: 100px;
-}
-.col-3 img{
-    width: 100%;
-    
-}
-.col-3 img:hover
-{
-    transform: scale(1.1);
-    animation: moving 0.5s forwards;
-}
-.hidden
-{
-    display: none;
-}
-.hidden:nth-child(2)
-{
-color: cyan;
-}
-.hidden:hover
-{
-    display: table;
-}
-@keyframes moving
-{
-    from{
-        transform: rotate(3deg);
-    }
-    to{
-        transform: scale(1.2);
-    }
-}
-.more
-{
-    border: none;
-    background-color: cyan;
-    color: #fff;
-    font-size: large;
-    padding: 15px 25px;
-    margin-top: 20px;
-    margin-bottom: 35px;
-}
-.pos{
-   
-    text-align: center;
-}
-/* end of photos */
-.vedio
-{
-    width: 100%;
-    height: 150vh;
-    overflow: hidden;
-}
-/*.myVedio 
-{
-  
-}*/
-.vedio div
-{
-    background-color: rgba(0, 132, 255, 0.637);
-    text-align: center;
-    position: relative;
-    bottom: 75vh;
-    color: #fff;
-    padding: 25px;
-    z-index: 1;
-}
-.vedio div h1,.vedio div p{
-    padding: 25px;
-}
-.vedio div button
-{
-    margin-top: 25px;
-    background-color: #000;
-    color: #fff;
-    padding: 10px 25px;
-    border: none;
-    text-transform: uppercase;
+    color: rgb(255, 174, 0) !important;
 }
 .about
 {
-    height: 80vh;
-    overflow: hidden;
-}
-.aboutphoto{
-text-align: center;
-margin-top: 120px;
-}
-/*end of about*/
-.numbers
-{
-    margin-top: -19.75vh;
-    width: 100%;
-    height: 50vh;
-    background: url(../images/stats.png) no-repeat center scroll;
-    background-size: cover;
-}
-.numbers
-{
-    text-align: center;
-    padding-bottom: 100px;
-}
-.numbers .col-3{
-    margin-top: 15%;
-    padding-top: 10px;
-    background-color:rgba(0, 132, 255, 0.637);
-    font-size: xx-large;
-    width: 25%; 
-    float: left; 
-    color: #fff;
-}
-.col-3 p{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: medium;
-}
-.col-3 i{
-   margin-bottom: 20px;
-    font-size: 20px;
-    background-color: #000;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-/* end of the icons */
- .rows1
- {
-     width: 100%;
-     height: 100vh;
- }
- .col-2{
-    width: 16.66%;
-   float: left;
-}
-.all img
-{
-width: 15vh;
-height: 15vh;    
-border-radius: 50%;
-vertical-align: middle;
-display: inline-block;
-}
-.col-2 .direction
-{
-    margin-left: -50px;
-}
-.col-2 .direction p{
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 25px;
+    position: relative;
+    bottom: 28px;
+    z-index: 1;
 }
 
-.omar::before{
-   position: relative;
-   top: 25%;
-   left: 2.5px;
+.fs-6
+{
+    font-size: 13px !important;
 }
-.omar2::before{
-   position: relative;
-   top: 26.5%;
-   left: 0.5px;
+.border-warning
+{
+    border-bottom:10px solid rgb(255, 202, 105) !important;
+}
+.d-flex div{
+    width: 35vh;
+    height: 75vh;
+}
+.d-flex div hr{
+    height: 10px;
+}
+.black
+{
+    height: 95vh !important;
+    width: 40vh !important;
+}
+.button
+{
+    margin-top: 100px !important;
+}
+.button:hover
+{
+    border-color: gray !important;
+    background-color: gray;
+}
+.image 
+{
+    background:url(../images/video-placeholder.jpg) no-repeat center scroll ;
+    background-size: cover;
+    height: 80vh;      
+}
+input
+{
+    height: 45px;
+    z-index: 1;
+    position: relative;
+    left: 25px;
+    top: 3px;
+}
+.up
+{
+    position: relative;
+    bottom: 70px;
+    z-index: -1;
+}
+i:hover{
+    background-color: blue;
+    color: white;
+}
+
+.top-45{
+    top:45%;
 }
